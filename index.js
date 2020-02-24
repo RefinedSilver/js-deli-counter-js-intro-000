@@ -1,6 +1,6 @@
 function takeANumber (currentLine, newCust) {
   currentLine.push(newCust);
-  let nextInLine = [('Welcome ' + newCust + '. You are number ' + currentLine.length + ' in line.')];
+  let nextInLine = [('Welcome, ' + newCust + '. You are number ' + currentLine.length + ' in line.')];
   return nextInLine;
 }
 function nowServing (currentLine) {
